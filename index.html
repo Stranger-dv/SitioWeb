@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Freelancer</title>
+    <link href="https://csstools.github.io/normalize.css/11.0.0/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
+        </nav>
+    </header>
+
+    <div class="hero"> <!--Elemento Padre-->
+        <div class="contenedor-hero">
+            <h1>Diseño y Desarrollo Freelancer</h1>
+            <p><i class="fa-solid fa-location-pin"></i>Maracaibo, Estado Zulia</p>
+            <a href="#" class="boton">Contáctame</a>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <main class="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="contenedor-servicios">
+                <div class="servicio">
+                    <h3>Diseño Web</h3>
+                    <div class="iconos">
+                        <i class="fa-solid fa-pen-nib"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illum repellendus expedita quasi libero cumque animi magni autem ea dolorem ratione quisquam, necessitatibus eaque velit sapiente eos omnis saepe amet.</p>
+                </div>
+
+                <div class="servicio">
+                    <h3>Aplicaciones Móviles</h3>
+                    <div class="iconos">
+                        <i class="fa-brands fa-android"></i>
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illum repellendus expedita quasi libero cumque
+                        animi magni autem ea dolorem ratione quisquam, necessitatibus eaque velit sapiente eos omnis saepe amet.</p>
+                </div>
+
+                <div class="servicio">
+                    <h3>Social Media</h3>
+                    <div class="iconos">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illum repellendus expedita quasi libero cumque
+                        animi magni autem ea dolorem ratione quisquam, necessitatibus eaque velit sapiente eos omnis saepe amet.</p>
+            </div>
+
+        </main>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form action="#">
+                <legend>Contáctanos llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre" placeholder="Nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label>Teléfono:</label>
+                        <input type="tel" name="nombre" placeholder="Teléfono">
+                    </div>
+
+                    <div class="campo w-100">
+                        <label>Correo:</label>
+                        <input type="mail" name="nombre" placeholder="Correo">
+                    </div>
+
+                    <div class="campo w-100">
+                        <label>Mensaje:</label>
+                        <textarea name="" id="" cols="30" rows="10">
+
+                        </textarea>
+                    </div>
+                </div> <!--Contenedor-campos-->
+                <div class="enviar">
+                    <input type="submit" class="boton" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
